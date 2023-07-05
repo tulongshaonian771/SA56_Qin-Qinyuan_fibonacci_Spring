@@ -1,13 +1,14 @@
 package nus.iss.oracletestspringbe;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.util.List;
 
 public class Saying {
     private List<Double> fibonacci;
 
     private List<Double> sorted;
+    private  String errorMessage;
+
 
     public Saying() {
         // Jackson deserialization
